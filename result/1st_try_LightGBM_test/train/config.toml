@@ -1,0 +1,231 @@
+preprocess_dir_name = "1st_try"
+model_type = "NN"
+seed = 3655
+n_iter = 20000
+result_dir = "../result/1st_try_LightGBM_test/train"
+
+[test_params]
+
+[preprocess_params]
+n_splits = 5
+preprocessed_dir_name = "1st_try"
+
+[train_params]
+learning_rate = 0.01
+objective = "binary"
+model_type = "LightGBM"
+preprocess_dir_name = "1st_try"
+seed = 3655
+result_dir = "../result/1st_try_LightGBM_test/train"
+n_iter = 20000
+
+[test_params]
+
+[train_params]
+objective = "binary"
+learning_rate = 0.01
+
+[preprocess_params]
+preprocessed_dir_name = "1st_try"
+n_splits = 5
+result_dir = "../result/1st_try_LightGBM_test/train"
+n_iter = 20000
+model_type = "LightGBM"
+preprocess_dir_name = "1st_try"
+seed = 3655
+
+[train_params]
+learning_rate = 0.01
+objective = "binary"
+
+[preprocess_params]
+preprocessed_dir_name = "1st_try"
+n_splits = 5
+
+[test_params]
+preprocess_dir_name = "1st_try"
+model_type = "LightGBM"
+n_iter = 20000
+seed = 3655
+result_dir = "../result/1st_try_LightGBM_test/train"
+
+[train_params]
+objective = "binary"
+learning_rate = 0.01
+
+[test_params]
+
+[preprocess_params]
+preprocessed_dir_name = "1st_try"
+n_splits = 5
+preprocess_dir_name = "1st_try"
+n_iter = 20000
+model_type = "LightGBM"
+result_dir = "../result/1st_try_LightGBM_test/train"
+seed = 3655
+
+[test_params]
+
+[preprocess_params]
+n_splits = 5
+preprocessed_dir_name = "1st_try"
+
+[train_params]
+learning_rate = 0.01
+objective = "binary"
+preprocess_dir_name = "1st_try"
+seed = 3655
+n_iter = 20000
+model_type = "LightGBM"
+result_dir = "../result/1st_try_LightGBM_test/train"
+
+[preprocess_params]
+preprocessed_dir_name = "1st_try"
+n_splits = 5
+
+[test_params]
+
+[train_params]
+learning_rate = 0.01
+objective = "binary"
+model_type = "LightGBM"
+n_iter = 20000
+preprocess_dir_name = "1st_try"
+seed = 3655
+result_dir = "../result/1st_try_LightGBM_test/train"
+
+[test_params]
+
+[preprocess_params]
+n_splits = 5
+preprocessed_dir_name = "1st_try"
+
+[train_params]
+objective = "binary"
+learning_rate = 0.01
+preprocess_dir_name = "1st_try"
+seed = 3655
+n_iter = 20000
+model_type = "LightGBM"
+result_dir = "../result/1st_try_LightGBM_test/train"
+
+[test_params]
+
+[train_params]
+objective = "binary"
+learning_rate = 0.01
+
+[preprocess_params]
+n_splits = 5
+preprocessed_dir_name = "1st_try"
+seed = 3655
+model_type = "LightGBM"
+result_dir = "../result/1st_try_LightGBM_test/train"
+n_iter = 20000
+preprocess_dir_name = "1st_try"
+
+[test_params]
+
+[preprocess_params]
+preprocessed_dir_name = "1st_try"
+n_splits = 5
+
+[train_params]
+learning_rate = 0.01
+objective = "binary"
+preprocess_dir_name = "1st_try"
+result_dir = "../result/1st_try_LightGBM_test/train"
+n_iter = 20000
+seed = 3655
+model_type = "LightGBM"
+
+[train_params]
+objective = "binary"
+learning_rate = 0.01
+
+[preprocess_params]
+preprocessed_dir_name = "1st_try"
+n_splits = 5
+
+[test_params]
+n_iter = 20000
+result_dir = "../result/1st_try_LightGBM_test/train"
+seed = 3655
+model_type = "LightGBM"
+preprocess_dir_name = "1st_try"
+
+[test_params]
+
+[preprocess_params]
+n_splits = 5
+preprocessed_dir_name = "1st_try"
+
+[train_params]
+learning_rate = 0.01
+objective = "binary"
+result_dir = "../result/1st_try_LightGBM_test/train"
+preprocess_dir_name = "1st_try"
+n_iter = 20000
+model_type = "LightGBM"
+seed = 3655
+
+[train_params]
+objective = "binary"
+metric = "cross_entropy"
+learning_rate = 0.01
+
+[preprocess_params]
+preprocessed_dir_name = "1st_try"
+n_splits = 5
+
+[test_params]
+result_dir = "../result/1st_try_LightGBM_test/train"
+seed = 3655
+model_type = "LightGBM"
+n_iter = 20000
+preprocess_dir_name = "1st_try"
+
+[test_params]
+
+[preprocess_params]
+n_splits = 5
+preprocessed_dir_name = "1st_try"
+
+[train_params]
+metric = "cross_entropy"
+objective = "binary"
+learning_rate = 0.01
+result_dir = "../result/1st_try_LightGBM_test/train"
+seed = 3655
+model_type = "LightGBM"
+preprocess_dir_name = "1st_try"
+n_iter = 20000
+
+[train_params]
+learning_rate = 0.01
+metric = "cross_entropy"
+objective = "binary"
+verbosity = 1
+
+[preprocess_params]
+preprocessed_dir_name = "1st_try"
+n_splits = 5
+
+[test_params]
+model_type = "LightGBM"
+result_dir = "../result/1st_try_LightGBM_test/train"
+seed = 3655
+preprocess_dir_name = "1st_try"
+n_iter = 20000
+
+[preprocess_params]
+preprocessed_dir_name = "1st_try"
+n_splits = 5
+
+[train_params]
+metric = "cross_entropy"
+verbosity = -1
+objective = "binary"
+learning_rate = 0.01
+
+[test_params]

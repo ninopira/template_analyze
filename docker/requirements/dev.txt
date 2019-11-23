@@ -1,0 +1,7 @@
+-r prd.txt
+
+flake8
+flake8-import-order
+flake8-print
+flake8-quotes
+ipdb
